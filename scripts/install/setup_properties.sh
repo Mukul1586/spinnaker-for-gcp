@@ -156,7 +156,7 @@ export GKE_RELEASE_CHANNEL=stable
 export GKE_MACHINE_TYPE=n1-highmem-4
 export GKE_DISK_TYPE=pd-standard
 export GKE_DISK_SIZE=100
-export GKE_NUM_NODES=3
+export GKE_NUM_NODES=2
 
 # See TZ column in https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 export TIMEZONE=$(cat /etc/timezone)
