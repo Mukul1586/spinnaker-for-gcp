@@ -153,7 +153,7 @@ export GKE_CLUSTER=${GKE_CLUSTER:-\$DEPLOYMENT_NAME}
 
 # These are only considered if a new GKE cluster is being created.
 export GKE_RELEASE_CHANNEL=stable
-export GKE_MACHINE_TYPE=n1-highmem-4
+export GKE_MACHINE_TYPE=n1-highmem-2
 export GKE_DISK_TYPE=pd-standard
 export GKE_DISK_SIZE=100
 export GKE_NUM_NODES=2
